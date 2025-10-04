@@ -1,5 +1,6 @@
 #include "greeting_utils.h"
 #include <string>
+#include <algorithm> 
 
 namespace GreetingUtils{
     std::string create_message(const std::string& name)
